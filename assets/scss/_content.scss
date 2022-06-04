@@ -79,10 +79,11 @@ ul {
     margin-bottom: 20px;
     list-style: disc;
     li {
-      font-size: 18px;
+      font-size: 20px;
       line-height: 20px;
-      margin-bottom: 10px;
-      margin-left: 0;
+      margin-bottom: 12px;
+      margin-left: 20px;
+      list-style: disc;
       @include breakpoint('small') {
         margin-left: 20px;
       }
@@ -103,6 +104,7 @@ ul {
   }
   blockquote p {
     font-size: 20px;
+    font-family: var(--font-family-quote);
     display: inline;
     color: var(--color-base-text);
   }
@@ -132,16 +134,16 @@ ul {
   }
   code,
   pre {
-    font-family: 'Fira Code';
+    font-family: var(--font-family-mono);
   }
   .highlight {
     pre {
       border-radius: 18px;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 18px;
       padding: 30px;
       overflow: auto;
-      font-family: 'Fira Code';
+      font-family: var(--font-family-mono);
     }
   }
 }
