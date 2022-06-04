@@ -13,6 +13,7 @@ h3 {
   margin-bottom: 20px;
   color: var(--heading-color);
   font-family: var(--font-family-heading);
+  font-weight: 800;
 }
 p {
   color: var(--text-color);
@@ -32,9 +33,9 @@ ul {
 }
 
 .content {
-  font-size: 18px;
+  font-size: 22px;
   p {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -109,11 +110,13 @@ ul {
     margin: 40px 0 40px 0;
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
   }
   figure {
     margin: 2.6rem 0 1.18rem;
     img {
       margin: 0;
+      border-radius: 8px;
     }
     figcaption {
       margin-top: 10px;
@@ -129,16 +132,16 @@ ul {
   }
   code,
   pre {
-    font-family: var(--font-family-monospace);
+    font-family: 'Fira Code';
   }
   .highlight {
     pre {
-      border-radius: 3px;
+      border-radius: 18px;
       font-size: 14px;
       line-height: 18px;
       padding: 30px;
       overflow: auto;
-      font-family: var(--font-family-monospace);
+      font-family: 'Fira Code';
     }
   }
 }
